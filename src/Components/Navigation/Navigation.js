@@ -15,15 +15,13 @@ render() {
     return(
       <div>
     <Navbar bg="light" expand="lg">
-        <Navbar.Brand>
-          <Link to="/">Plane Planner</Link>
+        <Navbar.Brand >
+          <Link className="LogoName" to="/">Plane Planner</Link>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Toggle/>
+        <Navbar.Collapse>
           <Nav>
-            <NavItem>
-             <PageList pagesList={pagesList} />
-            </NavItem>
+             <PageList  pagesList={pagesList} />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

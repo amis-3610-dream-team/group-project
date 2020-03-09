@@ -1,3 +1,35 @@
 a:hover {
     text-decoration: none;
 }
+
+.LogoName {
+    color: black;
+    text-decoration: none;
+}
+.LogoName:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:focus {
+    
+    outline:0 !important;
+}
+@media (max-width: 990px) {
+    a.nav-link {
+        }   
+    .bubble {
+            width: 100vw;
+        }    
+}
+@media (min-width: 991px) {
+    a.nav-link {
+        display: inline;
+        text-decoration: none;
+        outline: none;
+    }
+}

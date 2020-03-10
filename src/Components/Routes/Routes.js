@@ -5,6 +5,7 @@ import LogBook from "../../Pages/LogBook/LogBook";
 import MySchedule from "../../Pages/MySchedule/MySchedule";
 import Reserve from "../../Pages/Reserve/Reserve";
 import Weather from "../../Pages/Weather/Weather";
+import Login from "../../Pages/Login/Login";
 
 export default function Routes(){
     return (
@@ -14,6 +15,7 @@ export default function Routes(){
             <Route path="/MySchedule" component={MySchedule} />
             <Route path="/Reserve" component={Reserve} />
             <Route path="/Weather" component={Weather} />
+            <Route path="/Login" component={Login} />
         </Switch>
     );
 }

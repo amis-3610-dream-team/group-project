@@ -31,5 +31,6 @@ button:focus {
         display: inline;
         text-decoration: none;
         outline: none;
+        justify-items: right;
     }
 }

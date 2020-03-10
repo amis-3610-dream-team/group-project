@@ -1,6 +1,5 @@
 import React from 'react';
-import {Navbar, Nav, NavItem} from "react-bootstrap";
-import {Link} from "react-router-dom";
+import { Nav, NavItem } from "react-bootstrap";
 import './Navigation.css';
 
 export default function PageList(props) {

@@ -1,6 +1,6 @@
-import React, {Component} from "react";
+import React from "react";
 import "./Navigation.css";
-import {Navbar, Nav, NavItem} from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import {Link} from "react-router-dom";
 import PageList from './PageListCompiler';
 
@@ -20,9 +20,11 @@ render() {
         </Navbar.Brand>
         <Navbar.Toggle/>
         <Navbar.Collapse>
+          <div id="PageList">
           <Nav>
-             <PageList  pagesList={pagesList} />
+             <PageList id="PageList"  pagesList={pagesList} />
           </Nav>
+          </div>
         </Navbar.Collapse>
       </Navbar>
       </div>

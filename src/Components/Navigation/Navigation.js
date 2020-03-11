@@ -3,6 +3,9 @@ import "./Navigation.css";
 import { Navbar, Nav } from "react-bootstrap";
 import {Link} from "react-router-dom";
 import PageList from './PageListCompiler';
+import Airplane from '../../Assets/Airplane.svg';
+import Login from '../Login/LoginButton';
+import backdrop from "../Backdrop/Backdrop";
 
 //Here is where we update Our Navigation Links
 //Home is not included due to proper Home routing of root (/)
@@ -16,7 +19,7 @@ render() {
       <div>
     <Navbar bg="light" expand="lg">
         <Navbar.Brand >
-          <Link className="LogoName" to="/">Plane Planner</Link>
+          <Link className="LogoName" to="/"><img id="Logo" src={Airplane}></img>Plane Planner</Link>
         </Navbar.Brand>
         <Navbar.Toggle/>
         <Navbar.Collapse>
@@ -26,6 +29,7 @@ render() {
           </Nav>
           </div>
         </Navbar.Collapse>
+        <Login loginHandler={this.loginHandler}></Login>
       </Navbar>
       </div>
     );

@@ -21,8 +21,8 @@ render() {
         <Navbar.Brand >
           <Link className="LogoName" to="/"><img id="Logo" src={Airplane}></img>Plane Planner</Link>
         </Navbar.Brand>
-        <Navbar.Toggle/>
-        <Navbar.Collapse>
+        <Navbar.Toggle id="collapse"/>
+        <Navbar.Collapse >
           <div id="PageList">
           <Nav>
              <PageList id="PageList"  pagesList={pagesList} />

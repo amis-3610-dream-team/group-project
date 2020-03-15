@@ -1,7 +1,14 @@
+html {
+    background: #0a1128;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
 .lander {
     padding: 80px 0;
     text-align: center;
     text-align: center;
+    background: #0a1128;
 }
 
 .lander h1 {
@@ -10,5 +17,27 @@
 }
 
 .lander p {
-    color: #999;
+    background: #0a1128;
+
+}
+#planet{
+    position: fixed;
+    left:25vw;
+    top: 25vh;
+    height: 50vh;
+    width: 50vw;
+}
+#plane{
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+    height: 60vh;
+    width: 60vw;
+    -webkit-animation: circle 10s infinite linear;    
+}
+
+@keyframes circle {
+    0% {transform: rotate(0);}
+    51% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
 }

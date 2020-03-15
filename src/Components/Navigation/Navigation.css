@@ -11,6 +11,12 @@ a:hover {
     text-decoration: none;
 }
 
+#Logo {
+    height: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+
 a {
     text-decoration: none;
 }
@@ -19,9 +25,7 @@ button:focus {
     
     outline:0 !important;
 }
-@media (max-width: 990px) {
-    a.nav-link {
-        }   
+@media (max-width: 990px) { 
     .bubble {
             width: 100vw;
         }    
@@ -33,4 +37,8 @@ button:focus {
         outline: none;
         justify-items: right;
     }
+}
+#login {
+    margin: 0;
+    padding: 0;
 }

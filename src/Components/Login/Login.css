@@ -1,0 +1,41 @@
+.LoginContainer {
+    position: fixed;
+    width: 70vw;
+    height: 70vh;
+    right: 15vw;
+    top: 15vh;
+    background: #61A5D5;
+    z-index: 125;
+    overflow: visible;
+}
+.LoginContainer input {
+    float: center;
+    color: white;
+    
+}
+#login {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+
+}
+.loginItems {
+    font-size: x-large;
+    margin: 2vh;
+}
+#username, #password {
+    color: black;
+}
+/* SmartPhone */
+@media (max-width: 990px) {
+
+}
+
+/* Computer */
+@media (min-width: 991px) {
+
+}
+
+button {
+    background: white;
+}

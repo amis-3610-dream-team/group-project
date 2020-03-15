@@ -1,8 +1,7 @@
-
-
 .App-Container {
   width: 100vw;
   text-align: center;
+  overflow: hidden;
 }
 a:hover {
   text-decoration: none;
